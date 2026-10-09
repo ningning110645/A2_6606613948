@@ -36,48 +36,40 @@
             </div>
         </section>
 
-        <section id="what-i-built">
-            <h2>What I Built</h2>
-            <p>For this assignment, I created a simple one-page portfolio website using HTML and CSS. It has four main
-                sections: About Me, What I Built, How I Built It, and Reflection.</p>
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <div class="row">
 
-            <p><strong>Client and Server:</strong></p>
-            <p>When I open the file directly on my computer, my web browser acts as the <strong>Client</strong> to read
-                and display the HTML/CSS files from my local drive. There is no real web server involved here because
-                the files just stay on my own machine. But when I use the Live Preview extension in VS Code, it sets up
-                a small local server so I can see my page update as I code.</p>
-        </section>
+                <!-- Portfolio Item 1 -->
+                <div class="col-lg-6">
+                    <div class="card rounded-4 shadow-lg border-0 mb-5">
+                        <div class="card-body">
+                            <h3>CS100 A1: My First Learning Portfolio</h3>
+                            <p><strong>Type:</strong> Course Assignment</p>
+                            <p><strong>Date:</strong> 30 Aug 2026</p>
+                            <p><strong>Role:</strong> Individual Developer</p>
+                            <p><strong>Description:</strong> A one-page learning portfolio website built with HTML and
+                                CSS.</p>
+                            <p><strong>Skills:</strong>
+                                <span class="badge rounded-pill bg-secondary">HTML</span>
+                                <span class="badge rounded-pill bg-secondary">CSS</span>
+                                <span class="badge rounded-pill bg-secondary">Semantic HTML</span>
+                            </p>
 
-        <section id="how-i-built-it">
-            <h2>How I Built It</h2>
-            <p>Here is how I worked on this project:</p>
-            <ol>
-                <li>I started by creating the A1project3948 folder, then created the index.html file, and finally wrote
-                    the basic HTML structure using semantic tags like <code>&lt;header&gt;</code>,
-                    <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
-                <li>I created a <code>css</code> folder, added a <code>style.css</code> file, and linked it in the HTML
-                    head.</li>
-                <li>I added my profile picture into the <code>media</code> folder and adjusted the text and image
-                    alignment using CSS.</li>
-                <li>I wrote everything in VS Code. Whenever I wanted to add a new style that wasn't taught in class, or
-                    whenever I just forgot how to code something, I searched and self-studied CSS properties on <a
-                        href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a>.</li>
-            </ol>
-        </section>
+                            <h4>Reflection</h4>
+                            <p><strong>What I did:</strong> I did my learning portfolio Assignment 1 by myself. At first, it was hard for me to adjust and decorate the webpage, so I decided to make a simple design and focus on the content and what I can contribute to this work. </p>
+                            <p><strong>What I learned:</strong> I learned the basics of HTML, which is used for organizing content and webpage structure, while CSS is used for styling and layout. I also learned that we need to use CSS styling in a separate file so the text won't be messed up by the layout and style.</p>
+                            <p><strong>Challenge:</strong> The main challenge was understanding how to properly structure the HTML and apply CSS styles. I faced a challenge that my header and body were not aligned properly. The header seemed bigger than the body, so I had to adjust it by using box-sizing.</p>
+                            <p><strong>Next step:</strong> I want to make my website more interactive and more visually appealing on both mobile and desktop devices by using Bootstrap.</p>
 
-        <section id="reflection">
-            <h2>Reflection</h2>
-            <ul>
-                <li><strong>Problems & Solutions:</strong> The hardest part for me was getting the layout to look right
-                    with CSS. Sometimes adding a style didn't change what I expected, or my image path broke. I solved
-                    this by checking my folder names carefully and testing things one line at a time.</li>
-                <li><strong>What I Learned:</strong> I learned that HTML is just for organizing text and content, while
-                    CSS is for colors, fonts, and styling. Keeping CSS in its own file makes it much easier to edit
-                    without messing up the text.</li>
-                <li><strong>Future Improvements:</strong> If I have more time, I want to learn how to make the page look
-                    good on phone screens too, and maybe add a top navigation bar so people can click and jump between
-                    sections easily.</li>
-            </ul>
+                            <h4>Evidence</h4>
+                            <img src="media/a1-screenshot.png" alt="Screenshot of my A1 portfolio website"
+                                class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
 
