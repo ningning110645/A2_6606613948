@@ -3,3 +3,21 @@
     height: 180px;
     object-fit: cover;
 }
+body {
+    background-color: #FFF0F5;
+    color: #4A3B42;
+}
+
+h2, h3 {
+    color: #C2185B;
+}
+
+section h2 {
+    border-bottom: 2px solid #F8C8DC;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+header {
+    background-color: #F06292;
+    color: white;
+}
