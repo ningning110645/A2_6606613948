@@ -34,3 +34,11 @@ header h1 {
     object-fit: cover;
     object-position: top;
 }
+.btn-pink {
+    border-color: #F06292;
+    color: #C2185B;
+}
+.btn-pink:hover {
+    background-color: #F06292;
+    color: white;
+}
